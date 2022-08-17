@@ -1,0 +1,26 @@
+Algoritmo "Sistema escolar"
+
+Var
+nome: caracter
+nota1, nota2, media: real
+faltas: inteiro
+
+
+Inicio
+      escreval("Ola aluno(a), vamos começar. ")
+      escreva("Qual o seu nome? ")
+      leia(nome)
+      escreva("Qual a sua 1º nota? ")
+      leia(nota1)
+      escreval("Agora digite a sua segunda nota ")
+      leia(nota2)
+      escreva("Quantos dias você faltou? ")
+      leia(faltas)
+      media <- ((nota1 + nota2) /2)
+            se (media >= 7) e (faltas <= 3) entao
+            escreva("Parabéns ", nome,", você está aprovado. ")
+            senao
+            escreva ("Que pena ", nome,", você não foi aprovado. ")
+            fimse
+
+Fimalgoritmo
