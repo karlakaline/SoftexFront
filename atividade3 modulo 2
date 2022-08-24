@@ -1,0 +1,35 @@
+Algoritmo "CNH correta"
+
+
+Var
+
+rodas, pessoas, peso: inteiro
+
+Inicio
+      escreval("Vamos decobrir qual a CNH correta para o seu tipo de veículo. ")
+      escreva("Quantas rodas o veículo possuí? ")
+      leia(rodas)
+      escreva("Quantas pessoas ele pode transportar? ")
+      leia(pessoas)
+      escreva("Qual o peso do veículo? ")
+      leia(peso)
+                se (rodas <= 3) entao
+                escreva("Para esse veículo sua CNH deve ser: A ")
+                              senao
+                              se (pessoas <= 8) e (peso <= 3500) entao
+                              escreva("Para esse veículo sua CNH deve ser: B ")
+                                            senao
+                                            se (rodas = 4) e (peso >= 3500) e (peso <= 6000) entao
+                                            escreva("Para esse veículo sua CNH deve ser: C ")
+                                                          senao
+                                                          se (rodas >= 4) e (pessoas > 8) entao
+                                                          escreva("Para esse veículo sua CNH deve ser: D ")
+                                                                        senao
+                                                                        escreva("Para esse veículo sua CNH deve ser: E ")
+
+                                                                        fimse
+                                                          fimse
+                                            fimse
+                              fimse
+
+Fimalgoritmo
