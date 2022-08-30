@@ -1,0 +1,8 @@
+nome=str(input("informe seu nome--> "))
+while ( len(nome) <=  3 ):
+	nome=str(input("informe seu nome--> "))
+
+idade=int(input("informe a idade--> "))
+while ( idade > 150 or idade < 0 ):
+	idade=int(input(idade invalida--> "))
+  
