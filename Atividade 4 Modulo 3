@@ -1,0 +1,28 @@
+while operacao != 0
+print ("entre com um número")
+num1 = complex(input())
+print ("entre com um número")
+num2 = complex(input())
+print ("entre com um número")
+num3 = complex(input())
+print (" Digite 1- soma, 2- subtração, 3- multiplicação 4- divisão ou 0- sair")
+operação = input()
+if operacao == "1":
+    resultado = num1 + num2 + num3
+elif operação == "2":
+    resultado = num1 - num2 - num3
+elif operação == "3":
+    resultado = num1 * num2 * num3
+elif operação == "4":
+    resultado = num1 / num2 / num4
+else:
+    print("Essa opção não existe")
+    
+print("Resultado: ", resultado)
+print (num1.real)
+print (num1. img)
+print (num2.real)
+print (num2. img)
+print (num3.real)
+print (num3. img)
+
