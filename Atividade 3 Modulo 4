@@ -1,0 +1,11 @@
+public void setNomeProduto(Stringnomeproduto) {
+this.nomeproduto = nomeproduto;
+}
+
+public void setQuantidade(int quantidade) {
+this.quantidade = quantidade;
+}
+
+public void setValorUnitario(String valorunitario) {
+this.valorunitario = valorunitario;
+}
