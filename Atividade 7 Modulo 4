@@ -1,0 +1,10 @@
+try {
+  const isAutenticado = logon(email, senha)
+
+  if (!isAutenticado) {
+    throw new Error('E-mail e/ou senha inválidos')
+  }
+} catch (err) {
+  window.alert(err.message)
+  }
+
