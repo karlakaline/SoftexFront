@@ -1,0 +1,33 @@
+<!DOCTYPEhtml >
+< html  lang =" en " >
+< cabeça >
+    < meta  charset =" UTF-8 " >
+    < meta  http-equiv =" X-UA-Compatible " content =" IE=edge " >
+    < meta  name =" janela de visualização " conteúdo =" largura=largura do dispositivo, escala inicial=1,0 " >
+    < título > P1-HTML </ título >
+</ cabeça >
+< corpo >
+
+    < seção > Sessão
+        < p > texto de Exemplo de parágrafo </ p >
+    </ seção >
+
+    < artigo >
+        artigo
+        < ul > lista:
+            < li > item 1:
+                < img  src =" /Softex-html-css/my-hero-academia_f9ae.jpg " alt ="" >
+            </ li >
+            < li > item 2:
+                < img  src =" /Softex-html-css/Escudo.jpg " alt =" Escudo Sport. " >
+            </ li >
+            < li > item 3:
+                < botão > < a  href =" https://www.youtube.com/ " > Página inicial do youtube </ a > </ botão >
+            </ li >
+        </ ul >
+    </ artigo >
+
+    < rodapé > informações </ rodapé >
+    
+</ corpo >
+</ html >
