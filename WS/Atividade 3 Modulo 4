@@ -1,0 +1,47 @@
+import  express ,  {  json ,  response  }  de  'express'
+importar  statusCode  de  'http-status-codes'
+
+ aplicativo  const =  expresso ( ) ;
+
+const  PORTA  =  processo . env . PORTO  ||  3000 ;
+
+deixar  usuários  =  [
+    { id : 1 ,  nome : "Arthur" ,  idade : 27 } ,
+    { id : 2 ,  nome : "Luiz" ,  idade : 35 } ,
+    { id : 3 ,  nome : "Silva" ,  idade : 35 }
+    ]
+app . use ( express . json ( ) )
+app . escute ( PORTA ,  ( ) => {
+    console . log ( `Servidor rodando na porta ${ PORT } ` )
+} )
+
+app . get ( '/users' ,  ( req ,  resp )  => {
+    retorno  resp . enviar ( usuários )
+} )
+
+app . post ( '/users' ,  ( req ,  resp )  => {
+    const  newUser  =  req . corpo ;
+    usuários . push ( novoUsuário )
+
+    retorno  resp . status ( statusCode . CREATED ) . enviar ( novoUsuário )
+} )
+
+app . put ( '/users/:userId' ,  ( req ,  resp )  => {
+    const  userId  =  req . parâmetros . ID do usuário ;
+    const  attUser  =  req . corpo ;
+    attUser . id  =  userId ;
+    
+    usuários  =  usuários . mapa ( ( usuário )  => {
+        if ( Número ( userId )  ===  user . id ) {
+            return  attUser ;
+        }
+        retornar  usuário ;
+    } )
+    retorno  resp . enviar ( attUser ) ;
+} )
+
+app . delete ( '/users/:userId' ,  ( req ,  resp )  => {
+    const  userId  =  req . parâmetros . ID do usuário ;
+    usuários  =  usuários . filtro ( ( usuário )  =>  usuário . id  !==  Número ( userId ) )
+    retorno  resp . status ( statusCode . NO_CONTENT ) . enviar ( ) ;
+} )
