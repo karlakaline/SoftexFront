@@ -1,0 +1,4 @@
+Existem 3 possibilidades para a implementação de uma prototipação, uma menos custosa, a mediana, e uma com um custo elevado.
+A mais acessível, seria implementar um layout do app com as principais ideias de uso e de identidade e experiência do aplicativo, algo simples, mas que já seja possível de ter algum feedback de resultado de uso.
+A mediana seria uma versão do aplicativo com as principais funcionalidades e posto para testes com usuários internos.
+A mais custosa seria colocar uma versão de testes Alpha no ar para que tenha todo tipo de uso e de retorno possível do app, assim podendo mudar depois em caso de rejeitar, ou até mudar em caso de alguma observação de um ponto de visto que não tinha sido considerado.
